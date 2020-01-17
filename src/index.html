@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Carousel</title>
+</head>
+
+<body>
+
+
+
+
+  <div id="j-carousel">
+    <div>
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+      <div>5</div>
+      <div>6</div>
+      <div>7</div>
+    </div>
+  </div>
+
+
+
+  <script src="js/app.js"></script>
+  <script>
+    jActivateCarousel({
+      navigationText: ['prev', 'next'],
+      loop: false,
+      reverse: true,
+      dragDrop: true,
+      amountItems: {
+        mobile: 2,
+        tablet: 3,
+        desctop: 4
+      }
+    });
+  </script>
+</body>
+
+</html>
